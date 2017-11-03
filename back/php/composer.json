@@ -1,0 +1,28 @@
+{
+  "license": "GPL-3.0",
+  "name": "nanou/tech-talk-tube",
+  "type": "project",
+  "description": "An application to curate interesting tech talks.",
+  "autoload": {
+    "psr-4": {"Nanou\\ReadingList\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": {"endToEnd\\Nanou\\ReadingList\\": "tests/acceptance/context"}
+  },
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^4.2",
+    "behat/behat": "^3.4"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "authors": [
+    {
+      "name": "Anaël CHARDAN (nanaou)",
+      "email": "anael.chardan@gmail.com"
+    }
+  ]
+}

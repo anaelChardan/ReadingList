@@ -22,9 +22,10 @@
 # Managed by Composer
 /app/bootstrap.php.cache
 /var/bootstrap.php.cache
-/bin/*
+bin/*
 !bin/console
 !bin/symfony_requirements
+!.gitkeep
 
 # Assets and user uploads
 /web/bundles/
@@ -39,3 +40,9 @@
 
 # Backup entities generated with doctrine:generate:entities command
 **/Entity/*~
+
+## IntelliJ
+.idea
+
+## Composer
+vendor
